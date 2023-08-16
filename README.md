@@ -37,11 +37,11 @@ Run the Docker container:
 
 ## Playing the Game
 
-GET /board: Get the current game board, including the current player's turn and the winner (if any).
+GET /game: Get the current game board, including the current player's turn and the winner (if any).
 
 POST /game/move: Make a move in the game. Send a JSON payload with the player making the move, the row, and the column.
 
-DELETE /game/reset: Reset the game to its initial state.
+DELETE /game: Reset the game to its initial state.
 
 sample request : 
 
